@@ -1,0 +1,45 @@
+.globalNavBar {
+    background: #ffc800;
+    width: auto;
+    left: 1vw;
+    right: 1vw;
+    height: 12vh;
+    display : inline-block;
+    position: fixed;
+}
+
+.navBarContainer {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    background: #ffc800;
+    height: 10vh;
+    position: fixed;
+}
+
+.navbarLogo {
+    height: inherit;
+    float: left;
+    background: #2d2d2d;
+}
+
+.navbarSearchArea {
+    height: 6vh;
+    float: left;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    width: 50vw;
+    margin-bottom: 1vh;
+}
+
+.navbarSearchButton {
+    height: 6vh;
+    float: left;
+    margin-left: 1vw;
+    margin-top: 2.5vh;
+    margin-bottom: 1vh;
+}
+
+img.navbarLogo:hover {
+    cursor: pointer;
+}
+
