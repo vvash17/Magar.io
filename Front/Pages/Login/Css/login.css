@@ -1,21 +1,15 @@
 @import "loginMainContainer.css";
 @import "../../Global/Css/styles.css";
+@import "loginForm.css";
 
 .lowerBodyContainer {
+	top : 0;
     width: auto;
     left: 1vw;
     right: 1vw;
-    margin-top: 13vh;
     display : flex;
     position: absolute;
-    height: 85vh;
-    align-content: center;
+	height : 100vh;
+	background: rgba(255,200,0,0.0);
 }
 
-.loginBox {
-    margin : 0 auto;
-
-    width: 50vw;
-    height: 85vh;
-    background: rgba(255,200,0,0.7);
-}

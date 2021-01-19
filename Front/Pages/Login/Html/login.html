@@ -8,17 +8,20 @@
 </head>
 <body>
     <div class="loginMainContainer">
-        <div class="globalNavBar">
-            <div class="navBarContainer">
-                <img class="navbarLogo" src="../../../Images/Magar.io.png" alt="Magar.io">
-                <input class="navbarSearchArea" type="text" placeholder="Your Desire...">
-                <input class="navbarSearchButton" type="button" value="Search">
-            </div>
-        </div>
-
         <div class="lowerBodyContainer">
             <div class="loginBox">
-
+				<form class="loginForm" onsubmit="#">
+					<label class="loginLabel" for="login">Sign in</label>
+					<div class="loginUsernameWrapper">
+						<span class="loginUsernameSpan">&#x1f4e7;</span>
+						<input class="loginUsernameInput" type="text" name="username" placeholder="Enter username or email..."/>
+					</div>
+					<div class="loginPasswordWrapper">
+						<span class="loginPasswordSpan">&#x1f4e7;</span>
+						<input class="loginPasswordInput" type="password" name="password" placeholder="Enter password..."/>
+					</div>
+					<!-- <input class="loginSubmit" type="submit" value="login"/> -->
+				</form>
             </div>
         </div>
     </div>
