@@ -7,6 +7,7 @@
 }
 
 .bannerWrapper {
+    display: inline-block;
     position: fixed;
     margin-left: calc(50% - 20vw);
     width: 40vw;
