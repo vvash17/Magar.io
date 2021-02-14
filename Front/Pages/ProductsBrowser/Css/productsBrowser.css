@@ -1,0 +1,54 @@
+@import "../../Global/Css/styles.css";
+
+.lowerBodyContainer {
+    width: auto;
+    left: 0;
+    right: 0;
+    margin-top: 10vh;
+    display: block;
+    position: absolute;
+    height: 88vh;
+    background: rgb(47, 47, 47);
+    align-content: center;
+}
+
+.lowerBodyContainer {
+    height: 88vh;
+}
+
+.browsedProducts {
+    margin-top: 6vh;
+    position: fixed;
+    height: 80vh;
+    width: 75vw;
+    border-spacing: 0;
+    border-collapse: collapse;
+    right: 2vw;
+}
+
+.browsedProductsCell {
+    width: 15vw;
+    height: 20vh;
+    border: 1px solid white;
+}
+
+.browsedProductsRow {
+
+}
+
+.browsedProductsFilter {
+    width: 23vw;
+    left: 0;
+    height: inherit;
+    border: 1px solid white;
+    display: block;
+}
+
+.priceFrom {
+    width: 22vw;
+}
+
+.priceTo {
+    width: 22vw;
+
+}
