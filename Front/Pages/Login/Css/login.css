@@ -1,21 +1,114 @@
-@import "loginMainContainer.css";
 @import "../../Global/Css/styles.css";
 
 .lowerBodyContainer {
-    width: auto;
-    left: 1vw;
-    right: 1vw;
-    margin-top: 13vh;
-    display : flex;
-    position: absolute;
-    height: 85vh;
-    align-content: center;
+    display: block;
+    position: fixed;
+    width: 50vw;
+    height: 95vh;
+    background: rgb(47, 47, 47);
+    left: 50%;
+    top: 50%;
+    margin-left: -25vw;
+    margin-top: -48vh;
 }
 
-.loginBox {
-    margin : 0 auto;
+.loginLogo {
+    position: fixed;
+    width: 15vw;
+    height: 20vh;
+    left: 50%;
+    margin-left: -7.5vw;
+    z-index: 1;
+}
 
-    width: 50vw;
-    height: 85vh;
-    background: rgb(6, 13, 31);
+.loginLogo:hover{
+    cursor: pointer;
+}
+
+.loginForm {
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    width: 40vw;
+    height: 75vh;
+    left: 50%;
+    top: 50%;
+    margin-left: -20vw;
+    margin-top: -32vh;
+    z-index: 1;
+}
+
+.loginUserNameInput {
+    position: fixed;
+    width: 30vw;
+    left: 50%;
+    margin-left: -15vw;
+    margin-top: 5vh;
+    height: 8vh;
+}
+
+.loginPasswordInput {
+    position: fixed;
+    width: 30vw;
+    left: 50%;
+    margin-left: -15vw;
+    margin-top: 25vh;
+    height: 8vh;
+}
+
+.loginSubmitInput {
+    background-color: #8d1e1e;
+    font-weight: bold;
+    font-size: 175%;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    width: 30vw;
+    left: 50%;
+    margin-left: calc(-15vw + 2px);
+    margin-top: 45vh;
+    height: 8vh;
+}
+
+.loginUserNameInputLabel {
+    font-weight: bold;
+    color: orange;
+    position: fixed;
+    font-size: 175%;
+    height: 8vh;
+    width: 30vw;
+    margin-top: -2vh;
+    left: 50%;
+    margin-left: -15vw;
+}
+
+.loginPasswordInputLabel {
+    font-weight: bold;
+    color: orange;
+    position: fixed;
+    margin-top: 18vh;
+    font-size: 175%;
+    height: 8vh;
+    width: 30vw;
+    left: 50%;
+    margin-left: -15vw;
+}
+
+.instructions {
+    position: fixed;
+    width: 30vw;
+    left: 50%;
+    margin-left: -15vw;
+    top: 50%;
+    margin-top: 25vh;
+    height: 8vh;
+    z-index: 1;
+}
+
+th{
+    color: orange;
+}
+
+a{
+    color: white;
 }

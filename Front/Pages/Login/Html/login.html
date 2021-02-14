@@ -7,21 +7,38 @@
     <script src="../Js/login.js" type="text/javascript"></script>
 </head>
 <body>
-    <div class="loginMainContainer">
-        <div class="globalNavBar">
-            <img class="navbarLogo" src="../../../Images/Magar.io.png" alt="Magar.io">
-            <div class="navBarContainer">
-                <input class="navbarDropdownButton" type="button" value="Categories">
-                <input class="navbarSearchArea" type="text" placeholder="Your Desire...">
-                <input class="navbarSearchButton" type="button" value="Search">
-                <div class="navbarSignIn" >sign In</div>
-            </div>
+<!--    <div class="loginMainContainer">-->
+<!--        <div class="globalNavBar">-->
+<!--            <img class="navbarLogo" src="../../../Images/Magar.io.png" alt="Magar.io">-->
+<!--            <div class="navBarContainer">-->
+<!--                <input class="navbarDropdownButton" type="button" value="Categories">-->
+<!--                <input class="navbarSearchArea" type="text" placeholder="Your Desire...">-->
+<!--                <input class="navbarSearchButton" type="button" value="Search">-->
+<!--                <div class="navbarSignIn" >sign In</div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+        <div class="loginMainContainer">
+            <img class="loginLogo" id="loginLogo"  src="../../../Images/Magar.io.png" alt="Magar.io">
+            <form class="loginForm" action="">
+                <label class="loginUserNameInputLabel" for="loginUserNameInput">username</label>
+                <input class="loginUserNameInput" id="loginUserNameInput" type="text"/>
+                <label class="loginPasswordInputLabel" for="loginPasswordInput">password</label>
+                <input class="loginPasswordInput" id="loginPasswordInput" type="password"/>
+                <input class="loginSubmitInput" id="loginSubmitInput" value="login" type="submit"/>
+            </form>
+            <table class="instructions">
+                <tr>
+                    <th>Not registered yet?</th>
+                </tr>
+                <tr>
+                    <th>Register <a href="">Here</a></th>
+                </tr>
+            </table>
         </div>
 
         <div class="lowerBodyContainer">
-            <div class="loginBox">
 
-            </div>
         </div>
     </div>
 </body>
