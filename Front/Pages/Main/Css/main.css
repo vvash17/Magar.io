@@ -1,0 +1,16 @@
+@import "../../Global/Css/styles.css";
+@import "banners.css";
+@import "trending.css";
+
+.lowerBodyContainer {
+    width: auto;
+    left: 0;
+    right: 0;
+    margin-top: 10vh;
+    display : block;
+    position: absolute;
+    height: 80vh;
+    align-content: center;
+}
+
+

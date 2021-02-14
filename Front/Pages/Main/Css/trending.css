@@ -1,0 +1,42 @@
+.trendingProducts {
+    margin-top: 1vh;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    background: rgb(47, 47, 47);
+    height: 47vh;
+}
+
+.productsWrapper {
+    position: fixed;
+    display: inline-block;
+    margin-left: calc(50% - 40vw);
+    overflow: paged-x;
+    width: 100%;
+}
+
+.previousButtonTrending {
+    padding-left: 1vw;
+    width: 2vw;
+    position: fixed;
+    color: white;
+    font-size: 150%;
+    margin-top: 20.5vh;
+    height: 6vh;
+    left: 0;
+}
+
+.nextButtonTrending {
+    margin-top: 20.5vh;
+    position: fixed;
+    right: 0;
+    font-size: 150%;
+    padding-left: 1vw;
+    width: 2vw;
+    height: 6vh;
+    color: white;
+}
+
+.nextButtonTrending:hover, .previousButtonTrending:hover {
+    background: orange;
+}

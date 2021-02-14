@@ -1,18 +1,20 @@
 .globalNavBar {
-    background: #ffc800;
+    background: rgb(47, 47, 47);
     width: auto;
-    left: 1vw;
-    right: 1vw;
-    height: 12vh;
-    display : inline-block;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 10vh;
     position: fixed;
 }
 
 .navBarContainer {
-    margin-top: 1vh;
-    margin-left: 1vw;
-    background: #ffc800;
-    height: 10vh;
+    top: 0;
+    width: 80vw;
+    margin-left: -40vw;
+    left: 50%;
+    background: rgb(47, 47, 47);
+    height: 8vh;
     position: fixed;
 }
 
@@ -20,26 +22,62 @@
     height: inherit;
     float: left;
     background: #2d2d2d;
+    z-index: -1;
 }
 
 .navbarSearchArea {
-    height: 6vh;
+    height: 5vh;
+    margin-top: 1.5vh;
+    margin-left: 2vw;
     float: left;
-    margin-left: 1vw;
-    margin-top: 2vh;
     width: 50vw;
-    margin-bottom: 1vh;
 }
 
 .navbarSearchButton {
     height: 6vh;
     float: left;
-    margin-left: 1vw;
-    margin-top: 2.5vh;
-    margin-bottom: 1vh;
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+}
+
+.navbarSignIn {
+    height: 6vh;
+    float: left;
+    margin-left: 2vw;
+    margin-top: 1.5vh;
 }
 
 img.navbarLogo:hover {
     cursor: pointer;
 }
+
+.navbarDropdownButton {
+    height: 6vh;
+    float: left;
+    width: 6vw;
+    margin-left: 5vw;
+    margin-top: 1.5vh;
+}
+
+.navbarDropdownButton:hover {
+    cursor: pointer;
+}
+
+.navbarDropdownMenu {
+    display: none;
+    position: fixed;
+    background: rgba(255, 255, 255, 1);
+    left: 15vw;
+    top: 7.5vh;
+    width: 10vw;
+    border : 1px solid black;
+}
+
+.navbarDropdownButton:hover .navbarDropdownMenu {
+    display: block;
+}
+
+
+
+
 

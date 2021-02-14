@@ -1,0 +1,44 @@
+.promotingBanners {
+    width: 100vw;
+    left: 0;
+    right: 0;
+    background: rgb(47, 47, 47);
+    height: 40vh;
+}
+
+.bannerWrapper {
+    position: fixed;
+    margin-left: calc(50% - 20vw);
+    width: 40vw;
+}
+
+.banner {
+    height: 40vh;
+    width: 100%;
+}
+
+.previousButtonBanners {
+    padding-left: 1vw;
+    width: 2vw;
+    position: fixed;
+    color: white;
+    font-size: 150%;
+    margin-top: 17vh;
+    height: 6vh;
+    left: 0;
+}
+
+.nextButtonBanners {
+    margin-top: 17vh;
+    position: fixed;
+    right: 0;
+    font-size: 150%;
+    padding-left: 1vw;
+    width: 2vw;
+    height: 6vh;
+    color: white;
+}
+
+.nextButtonBanners:hover, .previousButtonBanners:hover {
+    background: orange;
+}
