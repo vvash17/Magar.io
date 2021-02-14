@@ -19,6 +19,7 @@
 }
 
 .navbarLogo {
+    position: fixed;
     height: inherit;
     float: left;
     background: #2d2d2d;
@@ -26,25 +27,58 @@
 }
 
 .navbarSearchArea {
+    position: fixed;
     height: 5vh;
     margin-top: 1.5vh;
     margin-left: 2vw;
-    float: left;
+    left: 20vw;
     width: 50vw;
 }
 
 .navbarSearchButton {
+    position: fixed;
     height: 6vh;
-    float: left;
-    margin-left: 2vw;
+    left: 50%;
+    margin-left: 24vw;
     margin-top: 1.5vh;
+    width: 4.5vw;
 }
 
 .navbarSignIn {
+    position: fixed;
     height: 6vh;
-    float: left;
-    margin-left: 2vw;
     margin-top: 1.5vh;
+    margin-right: 6vw;
+    right: 0;
+    width: 4.5vw;
+}
+
+.navbarRegister {
+    position: fixed;
+    height: 6vh;
+    margin-top: 1.5vh;
+    right: 1vw;
+    width: 5vw;
+}
+
+.navbarSignOut {
+    position: fixed;
+    height: 6vh;
+    margin-top: 1.5vh;
+    right: 1vw;
+    width: 5vw;
+    display: none;
+    z-index: 1;
+}
+
+.signedInProfile{
+    width: 10vw;
+    color: white;
+    position: fixed;
+    right: 0;
+    font-size : 1.75vw;
+    margin-right: 11vw;
+    margin-top : 3vh;
 }
 
 img.navbarLogo:hover {
@@ -52,8 +86,9 @@ img.navbarLogo:hover {
 }
 
 .navbarDropdownButton {
+    position: fixed;
     height: 6vh;
-    float: left;
+    left: 10vw;
     width: 6vw;
     margin-left: 5vw;
     margin-top: 1.5vh;
@@ -70,7 +105,7 @@ img.navbarLogo:hover {
     left: 15vw;
     top: 7.5vh;
     width: 10vw;
-    border : 1px solid black;
+    border: 1px solid black;
 }
 
 .navbarDropdownButton:hover .navbarDropdownMenu {

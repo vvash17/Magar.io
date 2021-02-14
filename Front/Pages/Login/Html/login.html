@@ -7,20 +7,9 @@
     <script src="../Js/login.js" type="text/javascript"></script>
 </head>
 <body>
-<!--    <div class="loginMainContainer">-->
-<!--        <div class="globalNavBar">-->
-<!--            <img class="navbarLogo" src="../../../Images/Magar.io.png" alt="Magar.io">-->
-<!--            <div class="navBarContainer">-->
-<!--                <input class="navbarDropdownButton" type="button" value="Categories">-->
-<!--                <input class="navbarSearchArea" type="text" placeholder="Your Desire...">-->
-<!--                <input class="navbarSearchButton" type="button" value="Search">-->
-<!--                <div class="navbarSignIn" >sign In</div>-->
-<!--            </div>-->
-<!--        </div>-->
-
         <div class="loginMainContainer">
             <img class="loginLogo" id="loginLogo"  src="../../../Images/Magar.io.png" alt="Magar.io">
-            <form class="loginForm" action="">
+            <form class="loginForm" onsubmit="login()" action="../../Main/Html/main.html">
                 <label class="loginUserNameInputLabel" for="loginUserNameInput">username</label>
                 <input class="loginUserNameInput" id="loginUserNameInput" type="text"/>
                 <label class="loginPasswordInputLabel" for="loginPasswordInput">password</label>
